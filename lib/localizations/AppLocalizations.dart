@@ -21,7 +21,18 @@ class AppLocalizations {
     return true;
   }
 
-  String trans(String key) {
+  String translate(String key) {
     return this._sentences[key];
+  }
+}
+
+class ScreenLocalizations {
+  final String _prefix;
+  final AppLocalizations _appLocalizations;
+
+  ScreenLocalizations(this._prefix, this._appLocalizations);
+
+  String translate(String key) {
+    return this._appLocalizations.translate(this._prefix + key);
   }
 }

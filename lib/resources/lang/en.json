@@ -1,3 +1,6 @@
 {
-  "screen.landing.title": "Duong"
+  "screen.landing.text.greeting": "Hello! Welcome to Traveloka",
+  "screen.landing.text.detected_language": "Your country and language are detected as:",
+  "screen.landing.text.prefer_different_language": "Prefer a different country or language?\nSelect your preference",
+  "screen.landing.button.continue": "Continue"
 }
