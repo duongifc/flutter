@@ -10,7 +10,7 @@ import 'package:flutter_traveloka/redux/app/reducer.dart';
 import 'package:flutter_traveloka/redux/app/middleware.dart';
 
 // Routing
-import 'package:flutter_traveloka/screens/landing.screen.dart';
+import 'package:flutter_traveloka/screens/landing/screen.dart';
 
 // Styling
 import 'package:flutter_traveloka/themes/traveloka.theme.dart';

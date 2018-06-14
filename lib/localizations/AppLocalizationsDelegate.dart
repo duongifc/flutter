@@ -12,9 +12,6 @@ class AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {
   Future<AppLocalizations> load(Locale locale) async {
     AppLocalizations localizations = new AppLocalizations(locale);
     await localizations.load();
-
-    print("Load ${locale.languageCode}");
-
     return localizations;
   }
 
