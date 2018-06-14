@@ -1,24 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_traveloka/localizations/AppLocalizations.dart';
 
-class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
-
-  // This widget is the home page of your application. It is stateful, meaning
-  // that it has a State object (defined below) that contains fields that affect
-  // how it looks.
-
-  // This class is the configuration for the state. It holds the values (in this
-  // case the title) provided by the parent (in this case the App widget) and
-  // used by the build method of the State. Fields in a Widget subclass are
-  // always marked "final".
-
-  final String title;
+class LandingScreen extends StatefulWidget {
+  LandingScreen({Key key}) : super(key: key);
 
   @override
-  _MyHomePageState createState() => new _MyHomePageState();
+  _LandingScreenState createState() => new _LandingScreenState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _LandingScreenState extends State<LandingScreen> {
   int _counter = 0;
 
   void _incrementCounter() {
@@ -42,9 +32,11 @@ class _MyHomePageState extends State<MyHomePage> {
     // than having to individually change instances of widgets.
     return new Scaffold(
       appBar: new AppBar(
-        // Here we take the value from the MyHomePage object that was created by
+        // Here we take the value from the LandingScreen object that was created by
         // the App.build method, and use it to set our appbar title.
-        title: new Text(widget.title, style: new TextStyle(color: Theme.of(context).textTheme.title.color)),
+        title: new Text(AppLocalizations.of(context).trans('screen.landing.title'),
+            style:
+                new TextStyle(color: Theme.of(context).textTheme.title.color)),
       ),
       body: new Center(
         // Center is a layout widget. It takes a single child and positions it
