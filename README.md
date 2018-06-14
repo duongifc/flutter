@@ -12,4 +12,5 @@ For help getting started with Flutter, view our online
 * [x] Localization (using JSON)
 * [x] Redux
 * [x] Custom font
-* [x] Theme 
+* [x] Theme
+* [ ] Redux persist 
