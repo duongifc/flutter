@@ -31,6 +31,25 @@ flutter:
   - lib/resources/lang/en.json
   - lib/resources/lang/vi.json
 
+  fonts:
+  - family: MuseoSans
+    fonts:
+      - asset: lib/resources/fonts/MuseoSans-100.otf
+      - asset: lib/resources/fonts/MuseoSans-100Italic.otf
+        weight: 100
+      - asset: lib/resources/fonts/MuseoSans-300.otf
+      - asset: lib/resources/fonts/MuseoSans-300Italic.otf
+        weight: 300
+      - asset: lib/resources/fonts/MuseoSans-500.otf
+      - asset: lib/resources/fonts/MuseoSans-500Italic.otf
+        weight: 500
+      - asset: lib/resources/fonts/MuseoSans-700.otf
+      - asset: lib/resources/fonts/MuseoSans-700Italic.otf
+        weight: 700
+      - asset: lib/resources/fonts/MuseoSans-900.otf
+      - asset: lib/resources/fonts/MuseoSans-900Italic.otf
+        weight: 900
+
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.
 
